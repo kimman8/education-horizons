@@ -47,26 +47,26 @@ A README.md file explaining your process.
 
 ## FAQ
 
-# Are third-party open source libraries such as React, MUI, Ionic, ImageMagick
+### Are third-party open source libraries such as React, MUI, Ionic, ImageMagick
 
 allowed in my submission?
 Yes, but please include dependencies and instructions with your
 submission.
 
-# What browsers need to be supported?
+### What browsers need to be supported?
 
 If your submittion is web-based; then all modern browsers should be
 supported.
 
-# What version of Java/JavaScript/Python?
+### What version of Java/JavaScript/Python?
 
 Any is fine, please provide information regarding so.
 
-### colourSteps
+## colourSteps
 
 This function generates an array which represents the 32 steps from 8 to 256. We will use this function 3 times for Red, Green and Blue.
 
-### generateColours
+## generateColours
 
 This function will loop through each index of all 3 of the Red, Green and Blue colour step arrays and populate the allColours array which is made up of 32 x 32 x 32 = 32,768 unique colours.
 
@@ -74,6 +74,6 @@ This function will loop through each index of all 3 of the Red, Green and Blue c
 
 This function will randomly mix/shuffle whatever array we pass through it, in this case we are passing the allColours array. This basic algorithm will start at the last index of the allColours array and decrement to the first index, with each iteration it will swap the location of the value at the currentIndex with a random index value thus providing us with a very custom, unique and aesthetically pleasing piece of colourful art.
 
-### App.css
+## App.css
 
 This file was used to implement some basic css to liven up our art.
