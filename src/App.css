@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  position: relative;
+  margin: 5% auto;
+}
+
+.square {
+  width: 25px;
+  height: 25px;
+  float: right;
+  border-radius: 30%;
+  padding: 3px;
+  margin: -4px -4px;
+  transform: rotate(-45deg);
+  border: 1px solid black;
+  box-shadow: 1px 1px #888888;
+}
